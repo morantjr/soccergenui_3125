@@ -1,0 +1,55 @@
+/* style.css */
+.custom-background {
+    background-image: url('images/b') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important; /* Optional: keeps the image fixed while scrolling */
+}
+
+.header-custom {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.footer-container{
+    background-color: #333 !important;
+    color: #fff !important;
+    padding: 20px 0;
+}
+
+.hero-custom {
+    background-image: url('images/soccer-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-custom h1 {
+    font-size: 4rem;
+}
+
+.hero-custom p {
+    font-size: 1.5rem;
+}
+
+/* Adjust alignment and spacing for social media links */
+.social-media {
+    display: flex;
+    justify-content: center; /* Aligns items horizontally */
+}
+
+.social-media a {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.social-media a:last-child {
+    margin-right: 0; /* No right margin for the last item */
+}
+
+/* Style contact information */
+.contact-info {
+    color: #007bff; /* Blue font color */
+}
