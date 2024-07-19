@@ -2,10 +2,10 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     const trainers = [
-        { name: 'John Razor', specialty: 'tactical', experience: 'high', image: 'images/Johnrazor.jpg', description: 'Experienced coach specializing in tactical training and player development.' },
-        { name: 'Ellie Williams', specialty: 'fitness', experience: 'medium', image: 'images/Ellie williams.jpg', description: 'Former professional player with expertise in fitness and skill enhancement.' },
-        { name: 'Coach Smith', specialty: 'youth', experience: 'high', image: 'images/coach.jpg', description: 'Youth development coach focusing on technical skills and game strategy.' },
-        { name: 'Mateo Segestes', specialty: 'agility', experience: 'medium', image: 'images/Mateo segestes.jpg', description: 'Certified trainer specializing in agility training and physical conditioning.' }
+        { name: 'John Razor', specialty: 'tactical', experience: 'high', image: 'Images/Johnrazor.jpg', description: 'Experienced coach specializing in tactical training and player development.' },
+        { name: 'Ellie Williams', specialty: 'fitness', experience: 'medium', image: 'Images/Ellie williams.jpg', description: 'Former professional player with expertise in fitness and skill enhancement.' },
+        { name: 'Coach Smith', specialty: 'youth', experience: 'high', image: 'Images/coach.jpg', description: 'Youth development coach focusing on technical skills and game strategy.' },
+        { name: 'Mateo Segestes', specialty: 'agility', experience: 'medium', image: 'Images/Mateo segestes.jpg', description: 'Certified trainer specializing in agility training and physical conditioning.' }
     ];
 
     function displayTrainers(filteredTrainers) {

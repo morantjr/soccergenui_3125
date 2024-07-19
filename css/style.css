@@ -1,6 +1,6 @@
 /* style.css */
 .custom-background {
-    background-image: url('images/b') !important;
+    background-image: url('Images/b') !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -18,7 +18,7 @@
 }
 
 .hero-custom {
-    background-image: url('images/soccer-hero.jpg');
+    background-image: url('Images/soccer-hero.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
