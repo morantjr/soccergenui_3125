@@ -4,8 +4,7 @@
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    background-attachment: fixed !important; /* Optional: keeps the image fixed while scrolling */
-}
+    background-attachment: fixed !important; 
 
 .header-custom {
     background-color: #333;
@@ -35,21 +34,21 @@
     font-size: 1.5rem;
 }
 
-/* Adjust alignment and spacing for social media links */
+
 .social-media {
     display: flex;
-    justify-content: center; /* Aligns items horizontally */
+    justify-content: center; 
 }
 
 .social-media a {
-    margin-right: 10px; /* Adjust as needed */
+    margin-right: 10px; 
 }
 
 .social-media a:last-child {
-    margin-right: 0; /* No right margin for the last item */
+    margin-right: 0; 
 }
 
 /* Style contact information */
 .contact-info {
-    color: #007bff; /* Blue font color */
-}
+    color: #007bff; 
+}}

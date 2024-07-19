@@ -30,6 +30,43 @@
         <img src="images/logo.png" alt="SoccerGen Logo" class="img-fluid" style="max-width: 200px;">
     </div>
 
+    <!-- Faceted Search Section -->
+    <section id="faceted-search" class="my-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Find Your Trainer</h2>
+            <form id="filtersForm" class="mb-4">
+                <div class="row">
+                    <div class="col-md-4 mb-2">
+                        <label for="specialty">Specialty</label>
+                        <select id="specialty" class="form-control">
+                            <option value="">All</option>
+                            <option value="tactical">Tactical</option>
+                            <option value="fitness">Fitness</option>
+                            <option value="youth">Youth Development</option>
+                            <option value="agility">Agility</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="experience">Experience Level</label>
+                        <select id="experience" class="form-control">
+                            <option value="">All</option>
+                            <option value="high">High</option>
+                            <option value="medium">Medium</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <button type="submit" class="btn btn-primary mt-4">Filter</button>
+                    </div>
+                </div>
+            </form>
+
+            <div id="trainersList" class="row">
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainer Selection Section -->
     <section id="training" class="my-5">
         <div class="container text-center">
             <h2>Choose your trainer</h2>
@@ -109,7 +146,7 @@
     <section id="establishment" class="my-5">
         <div class="container text-center">
             <h2>Our Establishment</h2>
-            <p>Since 2001, SoccerGen has been dedicated to providing top-quality soccer training and resources. We aim to empower players of all levels and ages to achieve their soccer goals through expert coaching and community support.</p>
+            <p>Since 2001, SoccerGen has been dedicated to providing top-quality soccer training and resources. We aim to empower players of all levels and ages to achieve their soccer goals through expert coaching, personalized training programs, and a supportive community. Our commitment to excellence and passion for the game drives us to continuously innovate and enhance our offerings, ensuring that every player has the opportunity to reach their full potential on and off the field. Join us in our journey to elevate the beautiful game and experience the SoccerGen difference.</p>
         </div>
     </section>
 
@@ -132,8 +169,7 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+    
+    <script src="js/facetedSearch.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script

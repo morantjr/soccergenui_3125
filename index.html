@@ -5,24 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoccerGen - Home</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body class="custom-background">
     <div class="wrapper">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html">SoccerGen</a>
+                <a class="navbar-brand" href="index.html" data-translate="home">SoccerGen</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="matches.html">Matches</a></li>
-                        <li class="nav-item"><a class="nav-link" href="training.html">Training</a></li>
-                        <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html" data-translate="home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="matches.html" data-translate="matches">Matches</a></li>
+                        <li class="nav-item"><a class="nav-link" href="training.html" data-translate="training">Training</a></li>
+                        <li class="nav-item"><a class="nav-link" href="community.html" data-translate="community">Community</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html" data-translate="contact">Contact</a></li>
                     </ul>
+                    <!-- Language Toggle Button -->
+                    <button id="languageToggle" class="btn btn-secondary ml-3">FR</button>
                 </div>
             </div>
         </nav>
@@ -33,8 +35,8 @@
 
         <section id="hero" class="hero-custom">
             <div class="container text-center">
-                <h1>Welcome to SoccerGen</h1>
-                <p>Your ultimate soccer resource. Kick-start your journey with us!</p>
+                <h1 data-translate="welcome">Welcome to SoccerGen</h1>
+                <p data-translate="description">Your ultimate soccer resource. Kick-start your journey with us!</p>
             </div>
         </section>
 
@@ -50,13 +52,13 @@
                     <img src="images/arsenal.jpg" class="img-fluid">
                 </div>
             </div>
-            <p class="mt-3">Join us at SoccerGen, where passion meets expertise. As the leading platform for soccer enthusiasts, we strive to entertain and unite the global soccer community. Stay connected with the latest updates, insights, and events that matter to you.</p>
-            <a href="#" class="btn btn-primary mt-3">Join us</a>
+            <p class="mt-3" data-translate="join-text">Join us at SoccerGen, where passion meets expertise. As the leading platform for soccer enthusiasts, we strive to entertain and unite the global soccer community. Stay connected with the latest updates, insights, and events that matter to you.</p>
+            <a href="#" class="btn btn-primary mt-3" data-translate="join-button">Join us</a>
         </section>
     </div> <!-- End of .wrapper -->
 
     <footer class="footer-custom bg-dark text-light ">
-        <div class="footer-container container text-center">
+        <div class="container text-center">
             <div class="row">
                 <div class="col-md-6 text-left">
                     <p class="contact-info">Contact us at info@soccergen.com</p>
@@ -77,5 +79,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/languageSwitcher.js"></script> 
 </body>
 </html>
